@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-demo-config
+  namespace: k8s-demo
+data:
+  APP_MODE: "prod"
+  SLOW_MS: "1500"
+  ERROR_MODE: "off"
+  READINESS_DELAY_MS: "5000"

@@ -1,0 +1,19 @@
+{
+  "name": "k8s-demo",
+  "version": "1.0.0",
+  "description": "Node.js + Express demo application for Kubernetes basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
